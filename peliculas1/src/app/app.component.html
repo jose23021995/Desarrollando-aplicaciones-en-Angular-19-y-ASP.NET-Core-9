@@ -1,4 +1,6 @@
 <h2>Datos de la pelicula</h2>
-<p>Pelicula: {{pelcula.titulo | uppercase}}</p><br>
-<p>Lanzamiento: {{pelcula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
-<p>Precio: {{pelcula.precio | currency }}</p>
+<div *ngFor="let pelicula of pelculas; let indice =index ">
+  <p>Pelicula {{indice+1}}: {{pelicula.titulo | uppercase}}</p><br>
+  <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
+  <p>Precio: {{pelicula.precio | currency }}</p>
+</div>
