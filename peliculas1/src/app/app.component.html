@@ -4,7 +4,7 @@
   <div class="contenedor-pelicula">
     <div style="display: flex; flex-direction: row; gap: 10px;">
       <div>
-        <img [ngSrc]="pelicula.poster" width="169" height="250" priority>
+        <img [ngSrc]="pelicula.poster" width="169" height="250" [priority]="$index === 0">
       </div>
       <div>
         <p>Pelicula {{$index+1}}: {{pelicula.titulo | uppercase}}</p><br>
