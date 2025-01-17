@@ -1,6 +1,17 @@
 <h2>Datos de la pelicula</h2>
+<h4>IMPLEMENTACION CLASICA CON NGFOR</h4>
 <div *ngFor="let pelicula of pelculas; let indice =index ">
   <p>Pelicula {{indice+1}}: {{pelicula.titulo | uppercase}}</p><br>
   <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
   <p>Precio: {{pelicula.precio | currency }}</p>
 </div>
+<hr>
+<h4>IMPLEMENTACION CLASICA CON arrobaFor</h4>
+
+@for (pelicula of pelculas; track $index) {
+  <div>
+    <p>Pelicula {{$index+1}}: {{pelicula.titulo | uppercase}}</p><br>
+    <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
+    <p>Precio: {{pelicula.precio | currency }}</p>
+  </div>
+}
