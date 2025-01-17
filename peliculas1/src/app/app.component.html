@@ -1,3 +1,4 @@
 <h2>Datos de la pelicula</h2>
-<p>Pelicula: {{pelcula.titulo}}</p><br>
-<p>lanzamiento: {{pelcula.fechaLanzamiento | date:"dd-MMMM-yyyy"}}</p>
+<p>Pelicula: {{pelcula.titulo | uppercase}}</p><br>
+<p>Lanzamiento: {{pelcula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
+<p>Precio: {{pelcula.precio | currency }}</p>

@@ -1,11 +1,11 @@
-import { DatePipe } from '@angular/common';
+import { CurrencyPipe, DatePipe, UpperCasePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone:true,
-  imports: [DatePipe],
+  imports: [DatePipe, UpperCasePipe, CurrencyPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -14,7 +14,8 @@ export class AppComponent {
   edad=29;
   pelcula={
     titulo:"spider man",
-    fechaLanzamiento:new Date()
+    fechaLanzamiento:new Date(),
+    precio:1400.99
   }
   duplicarNumero(valor:number){
     return valor *valor;
