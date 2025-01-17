@@ -1,16 +1,27 @@
 <h2>Datos de la pelicula</h2>
 <h4>DATOS DE PELICULA</h4>
-@for (pelicula of peliculas; track $index) {
-  <div class="contenedor-pelicula">
-    <div style="display: flex; flex-direction: row; gap: 10px;">
-      <div>
-        <img [ngSrc]="pelicula.poster" width="169" height="250" [priority]="$index === 0">
-      </div>
-      <div>
-        <p>Pelicula {{$index+1}}: {{pelicula.titulo | uppercase}}</p><br>
-        <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
-        <p>Precio: {{pelicula.precio | currency }}</p>
+@if (!peliculas) {
+  <img src="https://miro.medium.com/max/882/1*9EBHIOzhE1XfMYoKz1JcsQ.gif" />
+
+}
+@else if (peliculas.length ===0) {
+  <h1>no hay elementos para mostrar</h1>
+  <img src="https://static.vecteezy.com/system/resources/previews/004/896/105/non_2x/document-file-is-does-not-exist-is-missing-not-found-concept-illustration-flat-design-eps10-simple-and-modern-style-graphic-element-for-app-or-website-ui-ux-vector.jpg" />
+}
+@else {
+  @for (pelicula of peliculas; track $index) {
+    <div class="contenedor-pelicula">
+      <div style="display: flex; flex-direction: row; gap: 10px;">
+        <div>
+          <img [ngSrc]="pelicula.poster" width="169" height="250" [priority]="$index === 0">
+        </div>
+        <div>
+          <p>Pelicula {{$index+1}}: {{pelicula.titulo | uppercase}}</p><br>
+          <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
+          <p>Precio: {{pelicula.precio | currency }}</p>
+        </div>
       </div>
     </div>
-  </div>
+  }
+  
 }
