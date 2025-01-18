@@ -1,27 +1,5 @@
-<h2>Datos de la pelicula</h2>
-<h4>DATOS DE PELICULA</h4>
-@if (!peliculas) {
-  <img src="loading/loading.gif" />
+<h2>En cines</h2>
+<app-listado-peliculas></app-listado-peliculas>
 
-}
-@else if (peliculas.length ===0) {
-  <h1>no hay elementos para mostrar</h1>
-  <img src="loading/sinInfo.jpg" />
-}
-@else {
-  @for (pelicula of peliculas; track $index) {
-    <div class="contenedor-pelicula">
-      <div style="display: flex; flex-direction: row; gap: 10px;">
-        <div>
-          <img [ngSrc]="pelicula.poster" width="169" height="250" [priority]="$index === 0">
-        </div>
-        <div>
-          <p>Pelicula {{$index+1}}: {{pelicula.titulo | uppercase}}</p><br>
-          <p>Lanzamiento: {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}}</p>
-          <p>Precio: {{pelicula.precio | currency }}</p>
-        </div>
-      </div>
-    </div>
-  }
-  
-}
+<h2>Proximamentes</h2>
+<app-listado-peliculas></app-listado-peliculas>
