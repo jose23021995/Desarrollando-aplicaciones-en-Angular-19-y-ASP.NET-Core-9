@@ -1,12 +1,12 @@
 <h2>Datos de la pelicula</h2>
 <h4>DATOS DE PELICULA</h4>
 @if (!peliculas) {
-  <img src="https://miro.medium.com/max/882/1*9EBHIOzhE1XfMYoKz1JcsQ.gif" />
+  <img src="loading/loading.gif" />
 
 }
 @else if (peliculas.length ===0) {
   <h1>no hay elementos para mostrar</h1>
-  <img src="https://static.vecteezy.com/system/resources/previews/004/896/105/non_2x/document-file-is-does-not-exist-is-missing-not-found-concept-illustration-flat-design-eps10-simple-and-modern-style-graphic-element-for-app-or-website-ui-ux-vector.jpg" />
+  <img src="loading/sinInfo.jpg" />
 }
 @else {
   @for (pelicula of peliculas; track $index) {
