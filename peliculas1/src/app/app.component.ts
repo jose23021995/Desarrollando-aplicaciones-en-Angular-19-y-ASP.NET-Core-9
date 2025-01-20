@@ -51,6 +51,7 @@ export class AppComponent implements OnInit{
           precio: 300.99,
           poster: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The_Flash_%28film%29_poster.jpg/220px-The_Flash_%28film%29_poster.jpg'
         }
+        
       ]
     }, 2000);
   }
