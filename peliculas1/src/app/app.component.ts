@@ -53,7 +53,7 @@ export class AppComponent implements OnInit{
         }
         
       ]
-    }, 2000);
+    }, 100);
   }
   peliculasEnCines!: any[];
   peliculasProximoEstreno!: any[];

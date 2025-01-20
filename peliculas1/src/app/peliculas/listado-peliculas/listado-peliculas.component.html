@@ -1,6 +1,5 @@
 <button (click)="agregarPelicula()">agregar pelicula</button>
 <app-listado-generico [listado]="peliculas">
-  <ng-container vacio><span style="color: red;">No hay contenido para ti.</span></ng-container>
   <ng-container contenido>
     @for (pelicula of peliculas; track $index) {
       <div class="contenedor-pelicula">
