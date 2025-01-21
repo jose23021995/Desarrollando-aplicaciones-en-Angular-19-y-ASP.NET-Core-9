@@ -8,14 +8,12 @@ import { MatIconModule } from '@angular/material/icon';
   templateUrl: './rating.component.html',
   styleUrl: './rating.component.css'
 })
-export class RatingComponent implements OnInit{
-  ngOnInit(): void {
-    this.maximoRatingArreglo= Array(this.maximoRating).fill(0);
-  }
-  @Input({required:true})
-  maximoRating!:number;
+export class RatingComponent {
+
+  @Input({required:true, transform:(valor:number) => Array(valor).fill(0)})
+  maximoRating!:number[];
   @Input() ratingSeleccionado=0;
-  maximoRatingArreglo: any[]=[];
+  //maximoRatingArreglo: any[]=[];
   ratingAnterior=0;
   manejasMouseEnter(indice:number){
     this.ratingSeleccionado=indice+1;
