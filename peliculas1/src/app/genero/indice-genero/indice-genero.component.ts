@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
-
 @Component({
-  selector: 'app-indice-generos',
+  selector: 'app-indice-genero',
   imports: [RouterLink,MatButtonModule],
-  templateUrl: './indice-generos.component.html',
-  styleUrl: './indice-generos.component.css'
+  templateUrl: './indice-genero.component.html',
+  styleUrl: './indice-genero.component.css'
 })
-export class IndiceGenerosComponent {
+export class IndiceGeneroComponent {
 
 }
