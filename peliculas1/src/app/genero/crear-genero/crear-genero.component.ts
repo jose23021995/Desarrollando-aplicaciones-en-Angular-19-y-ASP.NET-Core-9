@@ -1,17 +1,28 @@
 import { Component, inject } from '@angular/core';
+import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
-import { Router } from '@angular/router';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { Router, RouterLink } from '@angular/router';
+
 
 @Component({
   selector: 'app-crear-genero',
-  imports: [MatButtonModule],
+  standalone:true,
+  imports: [MatButtonModule, RouterLink, MatFormFieldModule, ReactiveFormsModule, MatInputModule],
   templateUrl: './crear-genero.component.html',
   styleUrl: './crear-genero.component.css'
 })
 export class CrearGeneroComponent {
-  router = inject(Router);
+  private router = inject(Router);
+  private formBuilder = inject(FormBuilder);
+
+  form= this.formBuilder.group({
+    nombre:['']
+  });
   guardarCambios(){
     //.. guardar cambios
-    this.router.navigate(['/generos'])
+    //this.router.navigate(['/generos'])
+    console.log(this.form.value);
   }
 }

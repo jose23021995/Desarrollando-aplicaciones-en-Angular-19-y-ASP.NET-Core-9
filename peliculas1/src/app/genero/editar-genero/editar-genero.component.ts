@@ -8,6 +8,5 @@ import { Component, Input, numberAttribute } from '@angular/core';
 })
 export class EditarGeneroComponent {
   @Input(  {transform:numberAttribute})
-  id!:number;
-  
+  id!:number; 
 }
