@@ -5,7 +5,7 @@
         <input matInput [formControl]="form.controls.nombre">
     </mat-form-field>
     <div>
-        <button mat-flat-button type="button" (click)="guardarCambios()">Guardar cambios</button>
+        <button mat-flat-button type="button" (click)="guardarCambios()" [disabled]="form.invalid">Guardar cambios</button>
         <a mat-stroked-button routerLink="/generos">Cancelar</a>
     </div>
 </form>
