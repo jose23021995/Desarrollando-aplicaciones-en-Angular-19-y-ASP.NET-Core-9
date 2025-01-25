@@ -20,6 +20,13 @@ export class CrearGeneroComponent {
   form= this.formBuilder.group({
     nombre:['',{validators:[Validators.required]}]
   });
+  obtenerErrorCampoNombre(){
+    let nombre =this.form.controls.nombre;
+    if (nombre.hasError("required")) {
+      return "El campo nombre es requerido";
+    }
+    return "";
+  }
   guardarCambios(){
     //.. guardar cambios
     //this.router.navigate(['/generos'])
