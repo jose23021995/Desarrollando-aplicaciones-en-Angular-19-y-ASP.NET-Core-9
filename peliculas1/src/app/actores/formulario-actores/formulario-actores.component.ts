@@ -6,6 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
 import { ActorCreacionDTO,ActorDTO } from '../actores';
+import { fechaNoPuedeSerFutura } from '../../compartidos/componentes/funciones/validaciones';
 
 @Component
 ({
@@ -28,9 +29,25 @@ export class FormularioActoresComponent implements OnInit{
     nombre:['',{
       validators:[Validators.required]
     }],
-    fechaNacimiento:new FormControl<Date|null>(null)
+    fechaNacimiento:new FormControl<Date|null>(null,{validators:[Validators.required,fechaNoPuedeSerFutura()]})
   });
-  
+  obtenerErrorCampoNombre(){
+    let campo = this.form.controls.nombre;
+    if (campo.hasError('required')) {
+      return "El campo nombre es requerido";
+    }
+    return "";
+  }
+  obtenerErrorFechaNacimiento(){
+    let campo = this.form.controls.fechaNacimiento;
+    if (campo.hasError('required')) {
+      return "El campo nombre es requerido";
+    }
+    if (campo.hasError('futuro')) {
+      return campo.getError('futuro').mensaje;
+    }
+    return "";
+  }
   guardarCambios(){
     if (!this.form.valid) {
       return;
