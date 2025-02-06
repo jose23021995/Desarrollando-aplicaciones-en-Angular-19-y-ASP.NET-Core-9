@@ -36,15 +36,15 @@ export class FiltroPeliculasComponent implements OnInit{
     }
   }
   limpiar(){
-    this.form.patchValue({titulo:'',generoId:0,procimosEstrenos:false,encines:false});
+    this.form.patchValue({titulo:'',generoId:0,proximosEstrenos:false,enCines:false});
   }
   private formBuilder = inject(FormBuilder);
 
   form= this.formBuilder.group({
     titulo:'',
     generoId:0,
-    procimosEstrenos:false,
-    encines:false
+    proximosEstrenos:false,
+    enCines:false
   });
   generos= [
     {id:1,nombre:"suspenso"},

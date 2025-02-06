@@ -1,6 +1,6 @@
 export interface FiltroPeliculas{
     titulo:string;
     generoId:number;
-    proximosEstrenos:number;
+    proximosEstrenos:boolean;
     enCines:boolean;
 }
