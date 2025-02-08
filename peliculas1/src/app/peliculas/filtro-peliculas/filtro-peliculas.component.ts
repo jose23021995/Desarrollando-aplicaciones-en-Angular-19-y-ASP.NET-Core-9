@@ -7,7 +7,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { ListadoPeliculasComponent } from "../listado-peliculas/listado-peliculas.component";
 import { FiltroPeliculas } from '../filtroPeliculas';
-
+import { Location } from '@angular/common'; 
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-filtro-peliculas',
   imports: [MatButtonModule, MatSelectModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatCheckboxModule, ListadoPeliculasComponent],
@@ -16,9 +17,35 @@ import { FiltroPeliculas } from '../filtroPeliculas';
 })
 export class FiltroPeliculasComponent implements OnInit{
   ngOnInit(): void {
+    this.leerValoresURL();
+    this.buscarPeliculas(this.form.value as FiltroPeliculas);
     this.form.valueChanges.subscribe(valores =>{
       this.peliculas=this.peliculasOriginal;
-      this.buscarPeliculas(valores as FiltroPeliculas)
+      this.buscarPeliculas(valores as FiltroPeliculas);
+      this.escribirParametrosBusquedaEnURL(valores as FiltroPeliculas);
+
+    })
+  }
+  private formBuilder = inject(FormBuilder);
+  private location =inject(Location);
+  private activateRoute =inject(ActivatedRoute);
+
+  leerValoresURL(){
+    this.activateRoute.queryParams.subscribe((params:any)=>{
+      var objeto: any={};
+      if (params.titulo) {
+        objeto.titulo=params.titulo;
+      }
+      if (params.generoId) {
+        objeto.generoId=Number(params.generoId)
+      }
+      if (params.proximosEstrenos) {
+        objeto.proximosEstrenos=params.proximosEstrenos;
+      }
+      if (params.enCines) {
+        objeto.enCines=params.enCines;
+      }
+      this.form.patchValue(objeto);
     })
   }
   buscarPeliculas(valores:FiltroPeliculas){
@@ -35,11 +62,26 @@ export class FiltroPeliculasComponent implements OnInit{
       this.peliculas=this.peliculas.filter(pelicula=> pelicula.enCines)
     }
   }
+  escribirParametrosBusquedaEnURL(valores:FiltroPeliculas){
+    let queryString=[];
+    if (valores.titulo) {
+      queryString.push(`titulo=${encodeURIComponent(valores.titulo)}`);
+    }
+    if (valores.generoId !==0) {
+      queryString.push(`generoId=${valores.generoId}`);
+    }
+    if (valores.proximosEstrenos) {
+      queryString.push(`proximosEstrenos=${valores.proximosEstrenos}`);
+    }
+    if (valores.enCines) {
+      queryString.push(`enCines=${valores.enCines}`);
+    }
+    this.location.replaceState('peliculas/filtrar', queryString.join('&'));
+  }
   limpiar(){
     this.form.patchValue({titulo:'',generoId:0,proximosEstrenos:false,enCines:false});
   }
-  private formBuilder = inject(FormBuilder);
-
+  
   form= this.formBuilder.group({
     titulo:'',
     generoId:0,
