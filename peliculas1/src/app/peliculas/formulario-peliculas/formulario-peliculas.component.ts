@@ -9,10 +9,14 @@ import { InputImgComponent } from '../../compartidos/componentes/input-img/input
 import { PeliculaCreacionDTO, peliculaDTO } from '../peliculas';
 import moment from 'moment';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { SelectorMultipleDTO } from '../../compartidos/componentes/selector-multiples/SelectorMultipleModelo';
+import { SelectorMultiplesComponent } from "../../compartidos/componentes/selector-multiples/selector-multiples.component";
+import { AutocompleteActoresComponent } from "../../actores/autocomplete-actores/autocomplete-actores.component";
+import { actorAutoCompleteDTO } from '../../actores/actores';
 
 @Component({
   selector: 'app-formulario-peliculas',
-  imports: [MatButtonModule, MatSelectModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatCheckboxModule , InputImgComponent, MatDatepickerModule],
+  imports: [MatButtonModule, MatSelectModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatCheckboxModule, InputImgComponent, MatDatepickerModule, SelectorMultiplesComponent, AutocompleteActoresComponent],
   templateUrl: './formulario-peliculas.component.html',
   styleUrl: './formulario-peliculas.component.css'
 })
@@ -24,7 +28,18 @@ export class FormularioPeliculasComponent implements OnInit{
   }
 
   @Input()
+  generosSeleccionados!: SelectorMultipleDTO[];
+  @Input()
+  generosNoSeleccionados!: SelectorMultipleDTO[];
+  @Input()
+  cinesSeleccionados!: SelectorMultipleDTO[];
+  @Input()
+  cinesNoSeleccionados!: SelectorMultipleDTO[];
+  @Input()
   modelo?: peliculaDTO;
+  @Input({required:true})
+  actoresSeleccionados!:actorAutoCompleteDTO[];
+
   @Output()
   posteoFormulario= new EventEmitter<PeliculaCreacionDTO>();
 
@@ -39,14 +54,7 @@ export class FormularioPeliculasComponent implements OnInit{
   archivoSeleccionado(file:File){
     this.form.controls.poster.setValue(file)
   }
-  guardarCambios(){
-    if (!this.form.valid) {
-      return;
-    }
-    const pelicula = this.form.value as PeliculaCreacionDTO;
-    pelicula.fechaLanzamiento= moment(pelicula.fechaLanzamiento).toDate();
-    this.posteoFormulario.emit(pelicula)
-  }
+  
   ObtenerErrorCampoTitulo():string{
     let campo= this.form.controls.titulo;
 
@@ -62,5 +70,17 @@ export class FormularioPeliculasComponent implements OnInit{
       return "El campo Fecha de Lanzamiento es requerido"
     }
     return "";
+  }
+  guardarCambios(){
+    if (!this.form.valid) {
+      return;
+    }
+    const pelicula = this.form.value as PeliculaCreacionDTO;
+    const generoIds = this.generosNoSeleccionados.map(val => val.llave);
+    const cinesIds = this.generosNoSeleccionados.map(val => val.llave);
+    pelicula.fechaLanzamiento= moment(pelicula.fechaLanzamiento).toDate();
+    pelicula.cinesIds=cinesIds;
+    pelicula.actores=this.actoresSeleccionados;
+    this.posteoFormulario.emit(pelicula)
   }
 }

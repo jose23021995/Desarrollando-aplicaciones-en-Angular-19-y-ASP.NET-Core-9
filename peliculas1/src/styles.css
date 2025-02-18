@@ -28,3 +28,8 @@ mat-form-field {
 .contenedor-botones {
   margin-top: 1rem;
 }
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
