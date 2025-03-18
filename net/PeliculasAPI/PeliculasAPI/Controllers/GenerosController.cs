@@ -14,9 +14,6 @@ namespace PeliculasAPI.Controllers
         public ServicioSingleton singleton { get; }
         public IOutputCacheStore OutputCacheStore { get; }
         public IConfiguration Configuration { get; }
-
-        private readonly IRepositorio repositorio;
-
         private const string cacheTag = "generos";
 
         public GenerosController(IRepositorio repositorio, 
@@ -28,38 +25,10 @@ namespace PeliculasAPI.Controllers
             IOutputCacheStore outputCacheStore,
             IConfiguration configuration)
         {
-            this.repositorio = repositorio;
-            this.transient1 = transient1;
-            this.transient2 = transient2;
-            this.scoped1 = scoped1;
-            this.scoped2 = scoped2;
-            this.singleton = singleton;
             this.OutputCacheStore = outputCacheStore;
-            this.Configuration = configuration;
-        }
-
-        [HttpGet("ejemplo-proveedor-configuracion")]
-        public string GetEjemploProveedorConfiguracion()
-        {
-            return Configuration.GetValue<string>("CadenaDeConexion")!;
         }
         
-        [HttpGet("Servicios-ti-mpos-de-vida")]
-        public IActionResult GetServicioTiempoDeVida()
-        {
-            return Ok(new 
-            { 
-                Transients= new { transient1= transient1.ObtenerId,transient2=transient2.ObtenerId},
-                Scopeds = new { scoped1 = scoped1.ObtenerId, scoped2 = scoped2.ObtenerId },
-                Singleton= singleton.ObtenerId
-
-            });
-        }
-        
-
         [HttpGet]
-        [HttpGet("listado")]
-        [HttpGet("/listado-generos")]
         [OutputCache(Tags = [cacheTag])]
         
         public List<Genero> Get()
