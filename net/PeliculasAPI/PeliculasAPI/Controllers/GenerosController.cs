@@ -27,7 +27,8 @@ namespace PeliculasAPI.Controllers
             return new List<Genero>() {
                 new Genero { Id=1,Nombre="Comedia"},
                 new Genero{ Id = 2,Nombre = "porno"},
-                new Genero{ Id = 3,Nombre = "cachondes"}
+                new Genero{ Id = 3,Nombre = "cachondes"},
+                new Genero{ Id = 3,Nombre = "sexo"},
             };
         }
 
