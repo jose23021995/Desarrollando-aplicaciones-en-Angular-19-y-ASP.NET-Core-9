@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8v0HHOhXdFM=",
+  "dgSpecHash": "bnhDZo6HGJs=",
   "success": true,
-  "projectFilePath": "A:\\proyectos\\angular\\DAEA19YAC9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+  "projectFilePath": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtjam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\mtjam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

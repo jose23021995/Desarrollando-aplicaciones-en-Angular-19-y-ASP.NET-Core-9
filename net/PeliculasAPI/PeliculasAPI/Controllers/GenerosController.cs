@@ -1,81 +1,65 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
 using PeliculasAPI.Entidades;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace PeliculasAPI.Controllers
 {
     [Route("api/generos")]
     [ApiController]
     public class GenerosController: ControllerBase
     {
-        private readonly ServicioTransient transient1;
-        private readonly ServicioTransient transient2;
-        private readonly ServicioScoped scoped1;
-        private readonly ServicioScoped scoped2;
-        public ServicioSingleton singleton { get; }
+        
         public IOutputCacheStore OutputCacheStore { get; }
         public IConfiguration Configuration { get; }
         private const string cacheTag = "generos";
 
-        public GenerosController(IRepositorio repositorio, 
-            ServicioTransient transient1,
-            ServicioTransient transient2,
-            ServicioScoped scoped1,
-            ServicioScoped scoped2,
-            ServicioSingleton singleton,
-            IOutputCacheStore outputCacheStore,
-            IConfiguration configuration)
+        public GenerosController(
+            IOutputCacheStore outputCacheStore)
         {
             this.OutputCacheStore = outputCacheStore;
         }
-        
+
         [HttpGet]
         [OutputCache(Tags = [cacheTag])]
         
         public List<Genero> Get()
         {
-            //var repositorio = new ReposotorioEnMemoria();
-            var generos = repositorio.ObtenerTodosLosGeneros();
-            return generos;
+            return new List<Genero>() {
+                new Genero { Id=1,Nombre="Comedia"},
+                new Genero{ Id = 2,Nombre = "porno"},
+                new Genero{ Id = 3,Nombre = "cachondes"}
+            };
         }
 
         [HttpGet("{id:int}")] // api/generosd/?
         [OutputCache(Tags = [cacheTag])]
         public async Task<ActionResult<Genero>> Get(int id)
         {
-            //var repositorio = new ReposotorioEnMemoria();
-            var genero = await repositorio.ObtenerPorId(id);
-            if (genero is null)
-            {
-                return NotFound();
-            }
-            return genero;
+            throw new NotImplementedException();
 
         }
         [HttpGet("{nombre}")] // api/generosd/?
         public async Task<Genero?> Get(string nombre)
         {
+            /*
             var repositorio =  new ReposotorioEnMemoria();
             var genero = await repositorio.ObtenerPorId(1);
             return genero;
+            */
+            throw new NotImplementedException();
 
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Genero genero)
         {
-            //var repositorio = new ReposotorioEnMemoria();
-            var yaExisteUnGeneroConDichoNombre = repositorio.Existe(genero.Nombre);
-            if (yaExisteUnGeneroConDichoNombre)
-            {
-                return BadRequest($"ya existe un genero con el nombre {genero.Nombre}");
-            }
-            repositorio.Crear(genero);
-            await OutputCacheStore.EvictByTagAsync(cacheTag, default);
-            return Ok();
+            throw new NotImplementedException();
+
         }
 
         [HttpPut]
         public void Put()
         {
+            throw new NotImplementedException();
 
 
         }
@@ -83,6 +67,7 @@ namespace PeliculasAPI.Controllers
         [HttpDelete]
         public void Delete()
         {
+            throw new NotImplementedException();
 
 
         }

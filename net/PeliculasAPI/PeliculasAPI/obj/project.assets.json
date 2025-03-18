@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\proyectos\\angular\\DAEA19YAC9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+      "projectUniqueName": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
       "projectName": "PeliculasAPI",
-      "projectPath": "A:\\proyectos\\angular\\DAEA19YAC9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+      "projectPath": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
       "packagesPath": "C:\\Users\\mtjam\\.nuget\\packages\\",
-      "outputPath": "A:\\proyectos\\angular\\DAEA19YAC9\\net\\PeliculasAPI\\PeliculasAPI\\obj\\",
+      "outputPath": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
