@@ -12,7 +12,8 @@ import { GenerosService } from '../generos.service';
 export class IndiceGeneroComponent {
   generosService= inject(GenerosService);
   constructor(){
-    const generos =this.generosService.obtenerTodos();
-    console.log(generos);
+    this.generosService.obtenerTodos().subscribe(generos=>{
+      console.log(generos);
+    })
   }
 }
