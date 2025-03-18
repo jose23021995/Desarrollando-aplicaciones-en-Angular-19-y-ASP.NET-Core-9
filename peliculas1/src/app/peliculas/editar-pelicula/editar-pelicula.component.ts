@@ -31,7 +31,7 @@ generosSeleccionados:SelectorMultipleDTO[]=[{llave:2,valor:"Comedia"}];
     {
       id: 2,
       nombre: 'Jennifer Lopez',
-      personaje: "",
+      personaje: "Forest Gum",
       foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg/220px-210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg"
     },
   ];
