@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
@@ -29,9 +30,7 @@ namespace PeliculasAPI.Controllers
         [OutputCache(Tags = [cacheTag])]
         public async Task<List<GeneroDTO>> Get()
         {
-            var generos = await context.Genero.ToListAsync();
-            var generosDTOs = mapper.Map<List<GeneroDTO>>(generos);
-            return generosDTOs;
+            return await context.Genero.ProjectTo<GeneroDTO>(mapper.ConfigurationProvider).ToListAsync();
 
         }
 
