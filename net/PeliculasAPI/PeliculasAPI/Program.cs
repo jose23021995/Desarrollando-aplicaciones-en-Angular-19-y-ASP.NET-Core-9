@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using PeliculasAPI;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,13 +10,21 @@ builder.Services.AddControllers();
 //builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddDbContext<AplicationDbContext>(opciones => opciones.UseSqlServer("name=DefaultConnection"));
 builder.Services.AddOutputCache(opciones =>
 {
     opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(60);
 });
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(",");
 
-builder.Services.AddCors(opcciones=>opcciones.AddDefaultPolicy(opcionesCORS=>opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader()));
+builder.Services.AddCors(opcciones => {
+    opcciones.AddDefaultPolicy(opcionesCORS =>
+    {
+        opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+    });
+});
+//WithOrigins(origenesPermitidos)
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
+using Microsoft.EntityFrameworkCore;
+using PeliculasAPI.DTOs;
 using PeliculasAPI.Entidades;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace PeliculasAPI.Controllers
@@ -12,33 +15,34 @@ namespace PeliculasAPI.Controllers
         public IOutputCacheStore OutputCacheStore { get; }
         public IConfiguration Configuration { get; }
         private const string cacheTag = "generos";
+        private readonly AplicationDbContext context;
+        private readonly IMapper mapper;
 
-        public GenerosController(
-            IOutputCacheStore outputCacheStore)
+        public GenerosController(IOutputCacheStore outputCacheStore, AplicationDbContext context,IMapper mapper)
         {
             this.OutputCacheStore = outputCacheStore;
+            this.context = context;
+            this.mapper = mapper;
         }
 
         [HttpGet]
         [OutputCache(Tags = [cacheTag])]
-        
-        public List<Genero> Get()
+        public async Task<List<GeneroDTO>> Get()
         {
-            return new List<Genero>() {
-                new Genero { Id=1,Nombre="Comedia"},
-                new Genero{ Id = 2,Nombre = "porno"},
-                new Genero{ Id = 3,Nombre = "cachondes"},
-                new Genero{ Id = 3,Nombre = "sexo"},
-            };
+            var generos = await context.Genero.ToListAsync();
+            var generosDTOs = mapper.Map<List<GeneroDTO>>(generos);
+            return generosDTOs;
+
         }
 
-        [HttpGet("{id:int}")] // api/generosd/?
+        [HttpGet("{id:int}", Name = "ObtenetGeneroPorId")] // api/generosd/?
         [OutputCache(Tags = [cacheTag])]
-        public async Task<ActionResult<Genero>> Get(int id)
+        public async Task<ActionResult<GeneroDTO>> Get(int id)
         {
             throw new NotImplementedException();
 
         }
+        
         [HttpGet("{nombre}")] // api/generosd/?
         public async Task<Genero?> Get(string nombre)
         {
@@ -48,29 +52,27 @@ namespace PeliculasAPI.Controllers
             return genero;
             */
             throw new NotImplementedException();
-
         }
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Genero genero)
-        {
-            throw new NotImplementedException();
 
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] GeneroCreacionDTO generoCreacionDTO)
+        {
+            var genero = mapper.Map<Genero>(generoCreacionDTO);
+            context.Add(genero);
+            await context.SaveChangesAsync();
+            return CreatedAtRoute("ObtenetGeneroPorId", new {id=genero.Id},genero);
         }
 
         [HttpPut]
         public void Put()
         {
             throw new NotImplementedException();
-
-
         }
 
         [HttpDelete]
         public void Delete()
         {
             throw new NotImplementedException();
-
-
         }
     }
 }

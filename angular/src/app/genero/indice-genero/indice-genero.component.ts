@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
 import { GenerosService } from '../generos.service';
+import { environment } from '../../../environments/environment.development';
 
 @Component({
   selector: 'app-indice-genero',
@@ -11,6 +12,7 @@ import { GenerosService } from '../generos.service';
 })
 export class IndiceGeneroComponent {
   generosService= inject(GenerosService);
+  estamosEnProduccion=environment.production;
   constructor(){
     this.generosService.obtenerTodos().subscribe(generos=>{
       console.log(generos);
