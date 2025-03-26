@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 import { FormularioGeneroComponent } from "../formulario-genero/formulario-genero.component";
 import { GeneroCreacionDTO } from '../generos';
 import { GenerosService } from '../generos.service';
-import { exportarErrores } from '../../compartidos/componentes/funciones/ExtraerErrores';
+import { exportarErrores } from '../../compartidos/funciones/ExtraerErrores';
 import { MostrarErroresComponent } from "../../compartidos/componentes/mostrar-errores/mostrar-errores.component";
 
 @Component({

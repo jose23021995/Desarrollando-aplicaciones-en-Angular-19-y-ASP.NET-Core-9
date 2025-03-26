@@ -6,7 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { RouterLink } from '@angular/router';
 import { ActorCreacionDTO,ActorDTO } from '../actores';
-import { fechaNoPuedeSerFutura } from '../../compartidos/componentes/funciones/validaciones';
+import { fechaNoPuedeSerFutura } from '../../compartidos/funciones/validaciones';
 import { InputImgComponent } from "../../compartidos/componentes/input-img/input-img.component";
 import moment from 'moment';
 
