@@ -2,43 +2,38 @@ using Microsoft.EntityFrameworkCore;
 using PeliculasAPI;
 
 var builder = WebApplication.CreateBuilder(args);
+//var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddDbContext<AplicationDbContext>(opciones => opciones.UseSqlServer("name=DefaultConnection"));
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddOutputCache(opciones =>
 {
-    opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(50);
+    opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(60);
 });
 var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(",");
 
-builder.Services.AddCors(opcciones => {
-    opcciones.AddDefaultPolicy(opcionesCORS =>
+builder.Services.AddCors(opciones =>
+{
+    opciones.AddDefaultPolicy(opcionesCORS =>
     {
-        opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader();
+        opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader().WithExposedHeaders("cantidad-total-registros");
     });
 });
 //
 //WithOrigins(origenesPermitidos)
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    //app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
-app.UseOutputCache();
 app.UseCors();
+
 app.UseAuthorization();
 app.MapControllers();
+app.UseOutputCache();
 app.Run();

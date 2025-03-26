@@ -10,13 +10,14 @@ import { environment } from '../../environments/environment.development';
 export class GenerosService {
   private http= inject(HttpClient); 
   private urlBase=environment.apiUrl+"/generos";
+  private urlPruebas="https://localhost:7256/api/generos";
   constructor() {
     
    }
    public obtenerTodos(): Observable<GeneroDTO[]>{
-    return this.http.get<GeneroDTO[]>(this.urlBase);
+    return this.http.get<GeneroDTO[]>(this.urlPruebas);
   }
   public crear(genero:GeneroCreacionDTO){
-    return this.http.post(this.urlBase, genero);
+    return this.http.post(this.urlPruebas, genero);
   }
 }

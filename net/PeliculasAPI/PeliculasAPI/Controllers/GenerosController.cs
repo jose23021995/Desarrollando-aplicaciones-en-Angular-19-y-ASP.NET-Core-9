@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.EntityFrameworkCore;
 using PeliculasAPI.DTOs;
 using PeliculasAPI.Entidades;
+using PeliculasAPI.Utilidades;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace PeliculasAPI.Controllers
 {
@@ -28,9 +29,14 @@ namespace PeliculasAPI.Controllers
 
         [HttpGet]
         [OutputCache(Tags = [cacheTag])]
-        public async Task<List<GeneroDTO>> Get()
+        public async Task<List<GeneroDTO>> Get([FromQuery] PaginacionDTO paginacion)
         {
-            return await context.Genero.ProjectTo<GeneroDTO>(mapper.ConfigurationProvider).ToListAsync();
+            var queryable = context.Genero;
+            await HttpContext.InsertarParametrosPaginacionEnCabecera(queryable);
+            return await queryable
+                .OrderBy(g=>g.Nombre) //ordenar por letra 
+                .Paginar(paginacion)
+                .ProjectTo<GeneroDTO>(mapper.ConfigurationProvider).ToListAsync();
 
         }
 
