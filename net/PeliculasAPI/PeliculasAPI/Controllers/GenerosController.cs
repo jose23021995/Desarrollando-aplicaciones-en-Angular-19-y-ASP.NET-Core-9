@@ -44,8 +44,14 @@ namespace PeliculasAPI.Controllers
         [OutputCache(Tags = [cacheTag])]
         public async Task<ActionResult<GeneroDTO>> Get(int id)
         {
-            throw new NotImplementedException();
-
+            var genero = await context.Genero
+                .ProjectTo<GeneroDTO>(mapper.ConfigurationProvider)
+                .FirstOrDefaultAsync(g => g.Id == id);
+            if (genero is null)
+            {
+                return NotFound();
+            }
+            return genero;
         }
         
         [HttpGet("{nombre}")] // api/generosd/?
@@ -59,19 +65,30 @@ namespace PeliculasAPI.Controllers
             throw new NotImplementedException();
         }
 
-        [HttpPost]
+        [HttpPost("{id:int}")]
         public async Task<IActionResult> Post([FromBody] GeneroCreacionDTO generoCreacionDTO)
         {
             var genero = mapper.Map<Genero>(generoCreacionDTO);
             context.Add(genero);
             await context.SaveChangesAsync();
+            await OutputCacheStore.EvictByTagAsync(cacheTag,default);
             return CreatedAtRoute("ObtenetGeneroPorId", new {id=genero.Id},genero);
         }
 
         [HttpPut]
-        public void Put()
+        public async Task<IActionResult> Put(int id, [FromBody] GeneroCreacionDTO generoCreacionDTO)
         {
-            throw new NotImplementedException();
+            var generoExiste = await context.Genero.AnyAsync(g=> g.Id==id);
+            if (!generoExiste)
+            {
+                return NotFound();
+            }
+            var genero = mapper.Map<Genero>(generoCreacionDTO);
+            genero.Id = id;
+            context.Update(genero);
+            await context.SaveChangesAsync();
+            await OutputCacheStore.EvictByTagAsync(cacheTag, default);
+            return NoContent();
         }
 
         [HttpDelete]
