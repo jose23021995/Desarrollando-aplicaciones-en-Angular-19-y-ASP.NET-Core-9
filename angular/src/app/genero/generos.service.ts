@@ -20,10 +20,22 @@ export class GenerosService {
     let queryParams = construirQueryParams(paginacion);
     return this.http.get<GeneroDTO[]>(this.urlBase, {params: queryParams, observe: 'response'});
   }
+  public obtenerPorId(id: number): Observable<GeneroDTO>{
+    return this.http.get<GeneroDTO>(`${this.urlBase}/${id}`);
+  }
    public obtenerTodos(): Observable<GeneroDTO[]>{
     return this.http.get<GeneroDTO[]>(this.urlBase);
   }
-  public crear(genero:GeneroCreacionDTO){
+
+  public actualizar(id: number, genero: GeneroCreacionDTO): Observable<any>{
+    return this.http.put(`${this.urlBase}/${id}`, genero);
+  }
+
+  public crear(genero: GeneroCreacionDTO): Observable<any>{
     return this.http.post(this.urlBase, genero);
+  }
+  
+  public borrar(id: number): Observable<any>{
+    return this.http.delete(`${this.urlBase}/${id}`);
   }
 }

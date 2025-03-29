@@ -8,45 +8,57 @@ import { RouterLink } from '@angular/router';
 import { GeneroCreacionDTO, GeneroDTO } from '../generos';
 
 @Component({
-  selector: 'app-formulario-genero',
-  imports:  [MatButtonModule, RouterLink, MatFormFieldModule, ReactiveFormsModule, MatInputModule],
-  templateUrl: './formulario-genero.component.html',
-  styleUrl: './formulario-genero.component.css'
+    selector: 'app-formulario-genero',
+    imports: [MatButtonModule, RouterLink, MatFormFieldModule, ReactiveFormsModule, MatInputModule],
+    templateUrl: './formulario-genero.component.html',
+    styleUrl: './formulario-genero.component.css'
 })
-export class FormularioGeneroComponent implements OnInit{
-
-  @Input() modelo?:GeneroDTO;
-  @Output() posteoFormulario =new EventEmitter<GeneroCreacionDTO>();
+export class FormularioGeneroComponent implements OnInit {
   ngOnInit(): void {
-    if (this.modelo !== undefined) {
-      this.form.patchValue(this.modelo)
+    if (this.modelo !== undefined){
+      this.form.patchValue(this.modelo);
     }
   }
-    private formBuilder = inject(FormBuilder);
-  
-  form= this.formBuilder.group({
-    nombre:['',{validators:[Validators.required,primeraLetraMayuscula(),Validators.maxLength(75)]}]
-  });
-  obtenerErrorCampoNombre(){
-    let nombre =this.form.controls.nombre;
-    if (nombre.hasError("required")) {
+
+  @Input()
+  modelo?: GeneroDTO;
+
+  @Output()
+  posteoFormulario = new EventEmitter<GeneroCreacionDTO>();
+
+  private formbuilder = inject(FormBuilder);
+
+  form = this.formbuilder.group({
+    nombre: ['', {validators: [Validators.required, primeraLetraMayuscula(), Validators.maxLength(50)]}]
+  })
+
+  obtenerErrorCampoNombre(): string {
+    let nombre = this.form.controls.nombre;
+
+    if (nombre.hasError('required')){
       return "El campo nombre es requerido";
     }
-    if (nombre.hasError("maxLength")) {
-      return `El campo nombre no puede tener más de ${nombre.getError('maxLength').requiredLength} caracteres`;
+
+    if (nombre.hasError('maxlength')){
+      return `El campo nombre no puede tener más de ${nombre.getError('maxlength').requiredLength} caracteres`;
     }
-    if (nombre.hasError("primeraLetraMayuscula")) {
-      return nombre.getError("primeraLetraMayuscula").mensaje;
+
+    if (nombre.hasError('primeraLetraMayuscula')){
+      return nombre.getError('primeraLetraMayuscula').mensaje;
     }
+
     return "";
+
   }
-  guardarCambios(){
-    //.. guardar cambios
-    //this.router.navigate(['/generos'])
-    if (!this.form.valid) {
+
+  guardarCambios() {
+    if (!this.form.valid){
       return;
     }
+
     const genero = this.form.value as GeneroCreacionDTO;
     this.posteoFormulario.emit(genero);
+
   }
+
 }

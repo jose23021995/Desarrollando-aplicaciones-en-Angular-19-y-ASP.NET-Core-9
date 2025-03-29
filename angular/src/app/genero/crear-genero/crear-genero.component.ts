@@ -27,11 +27,14 @@ export class CrearGeneroComponent {
         this.router.navigate(['/generos']);
       },
       error: err =>{
+        console.log("err",err)
         const errores=exportarErrores(err);
         this.errores=errores;
       }
     });
   }
- 
 
+  
+ 
+  
 }

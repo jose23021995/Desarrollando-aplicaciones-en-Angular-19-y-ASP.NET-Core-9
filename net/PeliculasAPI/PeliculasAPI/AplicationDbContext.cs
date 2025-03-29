@@ -7,7 +7,6 @@ namespace PeliculasAPI
     {
         public AplicationDbContext(DbContextOptions options) : base(options)
         {
-
         }
         public DbSet<Genero> Genero { get; set; }
 
