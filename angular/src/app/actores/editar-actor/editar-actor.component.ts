@@ -1,38 +1,27 @@
-import { Component, Inject, inject, Input, numberAttribute, OnInit } from '@angular/core';
+import { Component, inject, Input, numberAttribute, OnInit } from '@angular/core';
 import { ActorCreacionDTO, ActorDTO } from '../actores';
 import { FormularioActoresComponent } from "../formulario-actores/formulario-actores.component";
 import { ActoresService } from '../actores.service';
+import { Router } from '@angular/router';
 import { exportarErrores } from '../../compartidos/funciones/ExtraerErrores';
 import { MostrarErroresComponent } from "../../compartidos/componentes/mostrar-errores/mostrar-errores.component";
 import { CargandoComponent } from "../../compartidos/componentes/cargando/cargando.component";
-import { Router } from '@angular/router';
+import { EditarEntidadComponent } from "../../compartidos/componentes/editar-entidad/editar-entidad.component";
+import { SERVICIO_CRUD_TOKEN } from '../../compartidos/proveedores/proveedores';
 
 @Component({
-  selector: 'app-editar-actor',
-  imports: [FormularioActoresComponent, MostrarErroresComponent, CargandoComponent],
-  templateUrl: './editar-actor.component.html',
-  styleUrl: './editar-actor.component.css'
+    selector: 'app-editar-actor',
+    imports: [EditarEntidadComponent],
+    templateUrl: './editar-actor.component.html',
+    styleUrl: './editar-actor.component.css',
+    providers: [
+        { provide: SERVICIO_CRUD_TOKEN, useClass: ActoresService }
+    ]
 })
-export class EditarActorComponent implements OnInit{
+export class EditarActorComponent {
+  @Input({transform: numberAttribute})
+  id!: number;
 
-  ngOnInit(): void {
-    this.actoresService.obtenerPorId(this.id).subscribe(actor=>{this.actor=actor})
-  }
-@Input(  {transform:numberAttribute})
-  id!:number;
-  actor?:ActorDTO;
-  actoresService=inject(ActoresService);
-  router= inject(Router);
-  errores:string[]=[];
-  guardarCambios(actor:ActorCreacionDTO){
-    this.actoresService.actualizar(this.id,actor).subscribe({
-      next:()=>{
-        this.router.navigate(['/actores']);
-      },
-      error:err=>{
-        const errores=exportarErrores(err);
-        this.errores=errores;
-      }
-    });
-  }
+  formularioActores = FormularioActoresComponent;
+
 }
