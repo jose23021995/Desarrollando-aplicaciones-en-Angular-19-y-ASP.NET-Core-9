@@ -5,24 +5,29 @@ import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment.development';
 import { PaginacionDTO } from '../compartidos/componentes/modelos/PaginacionDTO';
 import { construirQueryParams } from '../../app/compartidos/funciones/construirQueryParams';
+import { IServicioCRUD } from '../compartidos/interfaces/IServicioCRUD';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class GenerosService {
+export class GenerosService implements IServicioCRUD<GeneroDTO, GeneroCreacionDTO>{
   private http= inject(HttpClient); 
   private urlBase=environment.apiUrl+"/generos";
-  constructor() {
-    
-   }
-   public obtenerPaginado(paginacion: PaginacionDTO): Observable<HttpResponse<GeneroDTO[]>> {
+  constructor() 
+  {
+
+  }
+
+  public obtenerPaginado(paginacion: PaginacionDTO): Observable<HttpResponse<GeneroDTO[]>> {
     let queryParams = construirQueryParams(paginacion);
     return this.http.get<GeneroDTO[]>(this.urlBase, {params: queryParams, observe: 'response'});
   }
+
   public obtenerPorId(id: number): Observable<GeneroDTO>{
     return this.http.get<GeneroDTO>(`${this.urlBase}/${id}`);
   }
+  
    public obtenerTodos(): Observable<GeneroDTO[]>{
     return this.http.get<GeneroDTO[]>(this.urlBase);
   }

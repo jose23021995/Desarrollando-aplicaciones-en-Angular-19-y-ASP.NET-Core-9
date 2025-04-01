@@ -1,40 +1,22 @@
 import { Component, inject } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { Router } from '@angular/router';
 import { FormularioGeneroComponent } from "../formulario-genero/formulario-genero.component";
-import { GeneroCreacionDTO } from '../generos';
 import { GenerosService } from '../generos.service';
-import { exportarErrores } from '../../compartidos/funciones/ExtraerErrores';
-import { MostrarErroresComponent } from "../../compartidos/componentes/mostrar-errores/mostrar-errores.component";
+import { SERVICIO_CRUD_TOKEN } from '../../compartidos/proveedores/proveedores';
+import { CrearEntidadComponent } from "../../compartidos/componentes/crear-entidad/crear-entidad.component";
 
 @Component({
-  selector: 'app-crear-genero',
-  standalone:true,
-  imports: [MatButtonModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, FormularioGeneroComponent, MostrarErroresComponent],
-  templateUrl: './crear-genero.component.html',
-  styleUrl: './crear-genero.component.css'
+    selector: 'app-crear-generos',
+    imports: [MatButtonModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, CrearEntidadComponent],
+    templateUrl: './crear-genero.component.html',
+    styleUrl: './crear-genero.component.css',
+    providers: [
+        { provide: SERVICIO_CRUD_TOKEN, useClass: GenerosService }
+    ]
 })
-export class CrearGeneroComponent {
-  private router = inject(Router);
-  private generosService=inject(GenerosService);
-  errores:string[]=[];
-  guardarCambios(genero:GeneroCreacionDTO){
-    this.generosService.crear(genero).subscribe({
-      next:() =>{
-        this.router.navigate(['/generos']);
-      },
-      error: err =>{
-        console.log("err",err)
-        const errores=exportarErrores(err);
-        this.errores=errores;
-      }
-    });
-  }
-
-  
- 
-  
+export class CrearGenerosComponent {
+  formularioGeneros = FormularioGeneroComponent;
 }

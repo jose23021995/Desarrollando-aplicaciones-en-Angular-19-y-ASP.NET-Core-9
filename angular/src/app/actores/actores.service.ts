@@ -5,11 +5,13 @@ import { HttpClient, HttpResponse } from '@angular/common/http';
 import { PaginacionDTO } from '../compartidos/modelos/PaginacionDTO';
 import { construirQueryParams } from '../compartidos/funciones/construirQueryParams';
 import { Observable } from 'rxjs';
+import { IServicioCRUD } from '../compartidos/interfaces/IServicioCRUD';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ActoresService {
+export class ActoresService implements IServicioCRUD<ActorDTO,ActorCreacionDTO> {
+  
   private http = inject(HttpClient);
   private urlBase = environment.apiUrl + '/actores';
   constructor() { }
