@@ -11,7 +11,7 @@ namespace PeliculasAPI.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Genero",
+                name: "Generos",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -20,7 +20,7 @@ namespace PeliculasAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Genero", x => x.Id);
+                    table.PrimaryKey("PK_Generos", x => x.Id);
                 });
         }
 
@@ -28,7 +28,7 @@ namespace PeliculasAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Genero");
+                name: "Generos");
         }
     }
 }

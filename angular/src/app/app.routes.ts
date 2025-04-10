@@ -13,21 +13,34 @@ import { EditarCineComponent } from './cine/editar-cine/editar-cine.component';
 import { EditarPeliculaComponent } from './peliculas/editar-pelicula/editar-pelicula.component';
 import { FiltroPeliculasComponent } from './peliculas/filtro-peliculas/filtro-peliculas.component';
 
+//Rutas existentes
 export const routes: Routes = [
+    //todo
     {path:'', component:LandingPageComponent},
+    //vistas normales
     {path:'generos', component:IndiceGeneroComponent},
+    //vistas normales
     {path:'generos/crear', component:CrearGenerosComponent},
+    //vistas con parametros
     {path:'generos/editar/:id',component:EditarGeneroComponent},
+    //vistas normales
     {path:'actores', component:IndiceActoresComponent},
+    //vistas con parametros
     {path:'actores/editar/:id',component:EditarActorComponent},
+    //vistas normales
     {path:'actores/crear', component:CrearActorComponent},
+    //vistas normales
     {path:'cines', component:IndiceCinesComponent},
+    //vistas con parametros
     {path:'cines/editar/:id',component:EditarCineComponent},
+    //vistas normales
     {path:'cines/crear', component:CrearCineComponent},
+    //vistas normales
     {path:'peliculas/crear', component:CrearPeliculaComponent},
+    //vistas con parametros
     {path:'peliculas/editar/:id', component:EditarPeliculaComponent},
+    //vistas normales
     {path:'peliculas/filtrar', component:FiltroPeliculasComponent},
+    //en caso de errores
     {path:'**', redirectTo:''   },
-
-
 ];

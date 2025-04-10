@@ -10,8 +10,8 @@ using PeliculasAPI;
 
 namespace PeliculasAPI.Migrations
 {
-    [DbContext(typeof(AplicationDbContext))]
-    [Migration("20250321193125_TablaGeneros")]
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20250327185945_TablaGeneros")]
     partial class TablaGeneros
     {
         /// <inheritdoc />
@@ -39,7 +39,7 @@ namespace PeliculasAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genero");
+                    b.ToTable("Generos");
                 });
 #pragma warning restore 612, 618
         }

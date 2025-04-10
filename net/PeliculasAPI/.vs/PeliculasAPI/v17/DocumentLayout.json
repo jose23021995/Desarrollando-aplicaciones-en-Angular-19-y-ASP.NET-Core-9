@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\actorpeliculacreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\actorpeliculacreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\generocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\generocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\actorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\actorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\utilidades\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\utilidades\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\utilidades\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\utilidades\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\entidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\peliculacreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\peliculacreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\paginaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\paginaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\entidades\\peliculacine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\peliculacine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\entidades\\peliculaactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\peliculaactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\entidades\\peliculagenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\peliculagenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|a:\\proyectos\\angular\\daea19yac9\\angular\\desarrollando-aplicaciones-en-angular-19-y-asp.net-core-9\\net\\peliculasapi\\peliculasapi\\dtos\\peliculaspostgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C07C7FA-FB88-45A2-A317-72CD6C327709}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\peliculaspostgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +62,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HttpContextExtensions.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
-              "RelativeToolTip": "PeliculasAPI\\Utilidades\\HttpContextExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T02:59:21.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenerosController.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\GenerosController.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenerosController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\GenerosController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAhwFIAAAANAAAAAAAAAA==",
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:58:40.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeneroCreacionDTO.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
-              "RelativeToolTip": "PeliculasAPI\\DTOs\\GeneroCreacionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:52:52.488Z",
+              "WhenOpened": "2025-04-10T02:17:11.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\AplicationDbContext.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\AplicationDbContext.cs",
-              "RelativeToolTip": "PeliculasAPI\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Title": "ActorPeliculaCreacionDTO.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\ActorPeliculaCreacionDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\ActorPeliculaCreacionDTO.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\ActorPeliculaCreacionDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\ActorPeliculaCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T02:12:42.732Z",
+              "WhenOpened": "2025-04-10T02:16:28.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActorCreacionDTO.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\ActorCreacionDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\ActorCreacionDTO.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\ActorCreacionDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\ActorCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:16:10.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TypeBinder.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\TypeBinder.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\TypeBinder.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\TypeBinder.cs",
+              "RelativeToolTip": "PeliculasAPI\\Utilidades\\TypeBinder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:15:45.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IQueryableExtensions.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
-              "RelativeToolTip": "PeliculasAPI\\Utilidades\\IQueryableExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\Pelicula.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\Pelicula.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\Pelicula.cs",
+              "RelativeToolTip": "PeliculasAPI\\Entidades\\Pelicula.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:56:05.747Z"
+              "WhenOpened": "2025-04-10T02:10:47.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaginacionDTO.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PaginacionDTO.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\PaginacionDTO.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PaginacionDTO.cs",
-              "RelativeToolTip": "PeliculasAPI\\DTOs\\PaginacionDTO.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PeliculaActor.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaActor.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\PeliculaActor.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaActor.cs",
+              "RelativeToolTip": "PeliculasAPI\\Entidades\\PeliculaActor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:53:08.172Z"
+              "WhenOpened": "2025-04-10T02:10:44.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeliculaCine.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaCine.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\PeliculaCine.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaCine.cs",
+              "RelativeToolTip": "PeliculasAPI\\Entidades\\PeliculaCine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:10:43.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PeliculaGenero.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaGenero.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\PeliculaGenero.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Entidades\\PeliculaGenero.cs",
+              "RelativeToolTip": "PeliculasAPI\\Entidades\\PeliculaGenero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:10:42.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PeliculasPostGetDTO.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PeliculasPostGetDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\PeliculasPostGetDTO.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PeliculasPostGetDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\PeliculasPostGetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:44:08.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GeneroDTO.cs",
-              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\GeneroDTO.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\GeneroDTO.cs",
-              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\GeneroDTO.cs",
-              "RelativeToolTip": "PeliculasAPI\\DTOs\\GeneroDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PeliculaCreacionDTO.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PeliculaCreacionDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\DTOs\\PeliculaCreacionDTO.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\DTOs\\PeliculaCreacionDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\DTOs\\PeliculaCreacionDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:53:01.23Z"
+              "WhenOpened": "2025-04-10T01:42:46.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "ToolTip": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAEwDwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:36:12.65Z",
+              "EditorCaption": ""
             }
           ]
         }

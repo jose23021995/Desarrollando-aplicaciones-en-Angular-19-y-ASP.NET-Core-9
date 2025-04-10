@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp",
+      "PackagePath": "staticwebassets\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\01e1b431-1ed6-4909-af88-136297174eca.jpg",
+      "PackagePath": "staticwebassets\\archivos\\01e1b431-1ed6-4909-af88-136297174eca.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg",
+      "PackagePath": "staticwebassets\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\e27899b9-4336-4706-937a-5d60fdfa55d4.jpg",
+      "PackagePath": "staticwebassets\\archivos\\e27899b9-4336-4706-937a-5d60fdfa55d4.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\e88f2f84-edc4-4773-90f6-7a1b1f0dde86.webp",
+      "PackagePath": "staticwebassets\\archivos\\e88f2f84-edc4-4773-90f6-7a1b1f0dde86.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PeliculasAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PeliculasAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.PeliculasAPI.props",
+      "PackagePath": "build\\PeliculasAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.PeliculasAPI.props",
+      "PackagePath": "buildMultiTargeting\\PeliculasAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.PeliculasAPI.props",
+      "PackagePath": "buildTransitive\\PeliculasAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
