@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg",
+      "PackagePath": "staticwebassets\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg"
+    },
+    {
       "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp",
       "PackagePath": "staticwebassets\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp"
     },
@@ -9,8 +13,32 @@
       "PackagePath": "staticwebassets\\archivos\\01e1b431-1ed6-4909-af88-136297174eca.jpg"
     },
     {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg",
+      "PackagePath": "staticwebassets\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg",
+      "PackagePath": "staticwebassets\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg",
+      "PackagePath": "staticwebassets\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg",
+      "PackagePath": "staticwebassets\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg",
+      "PackagePath": "staticwebassets\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg"
+    },
+    {
       "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg",
       "PackagePath": "staticwebassets\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg",
+      "PackagePath": "staticwebassets\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg"
     },
     {
       "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\e27899b9-4336-4706-937a-5d60fdfa55d4.jpg",
@@ -19,6 +47,34 @@
     {
       "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\e88f2f84-edc4-4773-90f6-7a1b1f0dde86.webp",
       "PackagePath": "staticwebassets\\archivos\\e88f2f84-edc4-4773-90f6-7a1b1f0dde86.webp"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png",
+      "PackagePath": "staticwebassets\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp",
+      "PackagePath": "staticwebassets\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg"
+    },
+    {
+      "Id": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png",
+      "PackagePath": "staticwebassets\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PeliculasAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

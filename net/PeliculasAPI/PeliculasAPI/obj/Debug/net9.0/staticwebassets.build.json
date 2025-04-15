@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8szd2A8geFL5ZvoazSC3E/Ey/DCmr2UFU3BznCiStVg=",
+  "Hash": "UgE//U08yuys03e6cWA7zLlzEaGZODTUKBw906hqVww=",
   "Source": "PeliculasAPI",
   "BasePath": "_content/PeliculasAPI",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/011af6d1-f640-4217-98a7-34b04aac373a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yk8zsjusx4",
+      "Integrity": "zkGb73tbHxC7GP/zlgJUaiWCaFQvLwGE/QyJlxu/oow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg"
+    },
     {
       "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp",
       "SourceId": "PeliculasAPI",
@@ -59,6 +80,111 @@
       "OriginalItemSpec": "wwwroot\\archivos\\01e1b431-1ed6-4909-af88-136297174eca.jpg"
     },
     {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/0a849ee7-ecb7-4316-b342-f3497e3b75c5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5il5aflpej",
+      "Integrity": "440R+raapP2Te3WlQUNgboctQW2x+7/WwJhSK+/qO1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/16ad0525-cdd2-472f-814e-99ab4117f737#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7gdpxsa7hd",
+      "Integrity": "qd7GgUwbMg6HpDnSEFr8XIbfwJwHzE2ZJRhdnte5lRI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/205e4c0d-b1e9-4d88-9448-7ca23116b0e0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "imbd2yztd0",
+      "Integrity": "5glASRUsUQ+7hoqxvwSTGbe8+8TB20FT6X/aB6vs4Ls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/64ba34c5-c223-4238-a1a4-6d813f7b9451#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1vasp0xgff",
+      "Integrity": "/e4EMex7+UsfS5ao1QjSOFU6MRiN94rGLXf9s0Iv1wE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/911878b6-2e27-4cc6-a86e-d48134993fd3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqmq8scbuo",
+      "Integrity": "Y5J2JVr2DBGsyAj3u8VzhwDXFn/ycZu4HlM3C2t+ed0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg"
+    },
+    {
       "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg",
       "SourceId": "PeliculasAPI",
       "SourceType": "Discovered",
@@ -78,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "archivos/ad547f5a-9484-40d7-8b01-d78d487127c8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4vn8woe90h",
+      "Integrity": "MDX/df/10n7FsYy5pxPUqXSqFuoE1DWkNnngOyCkXzM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg"
     },
     {
       "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\e27899b9-4336-4706-937a-5d60fdfa55d4.jpg",
@@ -120,9 +267,238 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\archivos\\e88f2f84-edc4-4773-90f6-7a1b1f0dde86.webp"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hkdv83gh1n",
+      "Integrity": "cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/2b0c73cd-2531-420f-8c96-35cad02f5101#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hkdv83gh1n",
+      "Integrity": "cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/363b4939-4b90-4610-81e4-a319e13506b2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63rp62uhfr",
+      "Integrity": "nnzN4SFzMRrFrX9BZRXcuEfkmz82p4Dav8fvGlHdGDw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/9d560531-0abd-4e49-b113-4e66c5e860c6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ek6c8puxz",
+      "Integrity": "Q5dx+aQj4tjyP1Ohrc5tuTcwEEc36iTG1mmcJT+VMLQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/a4d99d61-5538-4684-8134-082960ee3c9a#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bcdmu4q6zh",
+      "Integrity": "9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/b62b7fb9-41d4-499f-8dc7-8a0f36f823d4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewyckgtuzy",
+      "Integrity": "rl/PtZpZUkUZHcSZ6cbVldy8V+RJhnWJse+v7Q6nizo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg"
+    },
+    {
+      "Identity": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/f83cd367-fb89-40ce-9565-2f492c14d0a9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dn9p0txf3j",
+      "Integrity": "GWFMs8ttgd8EL7WB0sT9pjNAu0YK36+Azn/tZrMdjbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "archivos/011af6d1-f640-4217-98a7-34b04aac373a.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkGb73tbHxC7GP/zlgJUaiWCaFQvLwGE/QyJlxu/oow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 22:21:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkGb73tbHxC7GP/zlgJUaiWCaFQvLwGE/QyJlxu/oow="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/011af6d1-f640-4217-98a7-34b04aac373a.yk8zsjusx4.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\011af6d1-f640-4217-98a7-34b04aac373a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkGb73tbHxC7GP/zlgJUaiWCaFQvLwGE/QyJlxu/oow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 22:21:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yk8zsjusx4"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/011af6d1-f640-4217-98a7-34b04aac373a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkGb73tbHxC7GP/zlgJUaiWCaFQvLwGE/QyJlxu/oow="
+        }
+      ]
+    },
     {
       "Route": "archivos/01d1c260-a340-48b8-97e7-cdb935ef93af.bcdmu4q6zh.webp",
       "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\01d1c260-a340-48b8-97e7-cdb935ef93af.webp",
@@ -288,6 +664,416 @@
       ]
     },
     {
+      "Route": "archivos/0a849ee7-ecb7-4316-b342-f3497e3b75c5.5il5aflpej.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"440R+raapP2Te3WlQUNgboctQW2x+7/WwJhSK+/qO1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5il5aflpej"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-440R+raapP2Te3WlQUNgboctQW2x+7/WwJhSK+/qO1s="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\0a849ee7-ecb7-4316-b342-f3497e3b75c5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"440R+raapP2Te3WlQUNgboctQW2x+7/WwJhSK+/qO1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-440R+raapP2Te3WlQUNgboctQW2x+7/WwJhSK+/qO1s="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/16ad0525-cdd2-472f-814e-99ab4117f737.7gdpxsa7hd.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qd7GgUwbMg6HpDnSEFr8XIbfwJwHzE2ZJRhdnte5lRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:19:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7gdpxsa7hd"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/16ad0525-cdd2-472f-814e-99ab4117f737.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qd7GgUwbMg6HpDnSEFr8XIbfwJwHzE2ZJRhdnte5lRI="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/16ad0525-cdd2-472f-814e-99ab4117f737.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\16ad0525-cdd2-472f-814e-99ab4117f737.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qd7GgUwbMg6HpDnSEFr8XIbfwJwHzE2ZJRhdnte5lRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:19:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qd7GgUwbMg6HpDnSEFr8XIbfwJwHzE2ZJRhdnte5lRI="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/205e4c0d-b1e9-4d88-9448-7ca23116b0e0.imbd2yztd0.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5glASRUsUQ+7hoqxvwSTGbe8+8TB20FT6X/aB6vs4Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imbd2yztd0"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5glASRUsUQ+7hoqxvwSTGbe8+8TB20FT6X/aB6vs4Ls="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\205e4c0d-b1e9-4d88-9448-7ca23116b0e0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5glASRUsUQ+7hoqxvwSTGbe8+8TB20FT6X/aB6vs4Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5glASRUsUQ+7hoqxvwSTGbe8+8TB20FT6X/aB6vs4Ls="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/64ba34c5-c223-4238-a1a4-6d813f7b9451.1vasp0xgff.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/e4EMex7+UsfS5ao1QjSOFU6MRiN94rGLXf9s0Iv1wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1vasp0xgff"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/e4EMex7+UsfS5ao1QjSOFU6MRiN94rGLXf9s0Iv1wE="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\64ba34c5-c223-4238-a1a4-6d813f7b9451.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/e4EMex7+UsfS5ao1QjSOFU6MRiN94rGLXf9s0Iv1wE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/e4EMex7+UsfS5ao1QjSOFU6MRiN94rGLXf9s0Iv1wE="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/911878b6-2e27-4cc6-a86e-d48134993fd3.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5J2JVr2DBGsyAj3u8VzhwDXFn/ycZu4HlM3C2t+ed0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5J2JVr2DBGsyAj3u8VzhwDXFn/ycZu4HlM3C2t+ed0="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/911878b6-2e27-4cc6-a86e-d48134993fd3.lqmq8scbuo.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\911878b6-2e27-4cc6-a86e-d48134993fd3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5J2JVr2DBGsyAj3u8VzhwDXFn/ycZu4HlM3C2t+ed0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqmq8scbuo"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/911878b6-2e27-4cc6-a86e-d48134993fd3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5J2JVr2DBGsyAj3u8VzhwDXFn/ycZu4HlM3C2t+ed0="
+        }
+      ]
+    },
+    {
       "Route": "archivos/aae9483f-7e78-4b14-b012-47e86e828928.eym0lab706.jpg",
       "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\aae9483f-7e78-4b14-b012-47e86e828928.jpg",
       "Selectors": [],
@@ -366,6 +1152,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-yn75atcY+ZqlhknlsEccuaf9SLf/ez9mDVO9l+KnO6o="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/ad547f5a-9484-40d7-8b01-d78d487127c8.4vn8woe90h.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDX/df/10n7FsYy5pxPUqXSqFuoE1DWkNnngOyCkXzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vn8woe90h"
+        },
+        {
+          "Name": "label",
+          "Value": "archivos/ad547f5a-9484-40d7-8b01-d78d487127c8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDX/df/10n7FsYy5pxPUqXSqFuoE1DWkNnngOyCkXzM="
+        }
+      ]
+    },
+    {
+      "Route": "archivos/ad547f5a-9484-40d7-8b01-d78d487127c8.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\archivos\\ad547f5a-9484-40d7-8b01-d78d487127c8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDX/df/10n7FsYy5pxPUqXSqFuoE1DWkNnngOyCkXzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDX/df/10n7FsYy5pxPUqXSqFuoE1DWkNnngOyCkXzM="
         }
       ]
     },
@@ -530,6 +1398,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.hkdv83gh1n.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:51:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hkdv83gh1n"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\24fc4ce4-9fa5-4cca-aa5b-81e137ff3ebe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:51:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/2b0c73cd-2531-420f-8c96-35cad02f5101.hkdv83gh1n.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:20:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hkdv83gh1n"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/2b0c73cd-2531-420f-8c96-35cad02f5101.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/2b0c73cd-2531-420f-8c96-35cad02f5101.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\2b0c73cd-2531-420f-8c96-35cad02f5101.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:20:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYpzKHXBaVtfEiQLsblMRFwNmYjuRykZ0qnQLzb1HvQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/363b4939-4b90-4610-81e4-a319e13506b2.63rp62uhfr.png",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnzN4SFzMRrFrX9BZRXcuEfkmz82p4Dav8fvGlHdGDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 23:41:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63rp62uhfr"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/363b4939-4b90-4610-81e4-a319e13506b2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnzN4SFzMRrFrX9BZRXcuEfkmz82p4Dav8fvGlHdGDw="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/363b4939-4b90-4610-81e4-a319e13506b2.png",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\363b4939-4b90-4610-81e4-a319e13506b2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "561460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnzN4SFzMRrFrX9BZRXcuEfkmz82p4Dav8fvGlHdGDw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 23:41:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnzN4SFzMRrFrX9BZRXcuEfkmz82p4Dav8fvGlHdGDw="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/9d560531-0abd-4e49-b113-4e66c5e860c6.5ek6c8puxz.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5dx+aQj4tjyP1Ohrc5tuTcwEEc36iTG1mmcJT+VMLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:35:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ek6c8puxz"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/9d560531-0abd-4e49-b113-4e66c5e860c6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5dx+aQj4tjyP1Ohrc5tuTcwEEc36iTG1mmcJT+VMLQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/9d560531-0abd-4e49-b113-4e66c5e860c6.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\9d560531-0abd-4e49-b113-4e66c5e860c6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5dx+aQj4tjyP1Ohrc5tuTcwEEc36iTG1mmcJT+VMLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:35:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5dx+aQj4tjyP1Ohrc5tuTcwEEc36iTG1mmcJT+VMLQ="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/a4d99d61-5538-4684-8134-082960ee3c9a.bcdmu4q6zh.webp",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 23:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcdmu4q6zh"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/a4d99d61-5538-4684-8134-082960ee3c9a.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/a4d99d61-5538-4684-8134-082960ee3c9a.webp",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\a4d99d61-5538-4684-8134-082960ee3c9a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 23:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YQACZJm69Lb0zUjJXx/cOoM+9Jaq87UolxFGjj5GK8="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.ewyckgtuzy.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rl/PtZpZUkUZHcSZ6cbVldy8V+RJhnWJse+v7Q6nizo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:27:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewyckgtuzy"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rl/PtZpZUkUZHcSZ6cbVldy8V+RJhnWJse+v7Q6nizo="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\b62b7fb9-41d4-499f-8dc7-8a0f36f823d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rl/PtZpZUkUZHcSZ6cbVldy8V+RJhnWJse+v7Q6nizo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 20:27:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rl/PtZpZUkUZHcSZ6cbVldy8V+RJhnWJse+v7Q6nizo="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/f83cd367-fb89-40ce-9565-2f492c14d0a9.dn9p0txf3j.png",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GWFMs8ttgd8EL7WB0sT9pjNAu0YK36+Azn/tZrMdjbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 03:20:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dn9p0txf3j"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/f83cd367-fb89-40ce-9565-2f492c14d0a9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GWFMs8ttgd8EL7WB0sT9pjNAu0YK36+Azn/tZrMdjbw="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/f83cd367-fb89-40ce-9565-2f492c14d0a9.png",
+      "AssetFile": "A:\\proyectos\\angular\\DAEA19YAC9\\angular\\Desarrollando-aplicaciones-en-Angular-19-y-ASP.NET-Core-9\\net\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\f83cd367-fb89-40ce-9565-2f492c14d0a9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GWFMs8ttgd8EL7WB0sT9pjNAu0YK36+Azn/tZrMdjbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 03:20:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GWFMs8ttgd8EL7WB0sT9pjNAu0YK36+Azn/tZrMdjbw="
         }
       ]
     }

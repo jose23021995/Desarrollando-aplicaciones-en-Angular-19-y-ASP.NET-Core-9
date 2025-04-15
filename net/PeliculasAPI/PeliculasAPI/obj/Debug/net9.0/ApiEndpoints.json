@@ -131,6 +131,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PeliculasAPI.Controllers.ActoresController",
+    "Method": "Get",
+    "RelativePath": "api/actores/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.PeliculaActorDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "PeliculasAPI.Controllers.CinesController",
     "Method": "Get",
     "RelativePath": "api/cines",
@@ -313,7 +339,7 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "ObtenetGeneroPorId"
+    "EndpointName": "ObtenerGeneroPorId"
   },
   {
     "ContainingType": "PeliculasAPI.Controllers.GenerosController",
@@ -369,6 +395,26 @@
     "ReturnTypes": [
       {
         "Type": "PeliculasAPI.Entidades.Genero",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PeliculasAPI.Controllers.GenerosController",
+    "Method": "Get",
+    "RelativePath": "api/generos/todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PeliculasAPI.DTOs.GeneroDTO, PeliculasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

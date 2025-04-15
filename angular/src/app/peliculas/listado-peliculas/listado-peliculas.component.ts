@@ -1,28 +1,30 @@
-import { Component, Input, OnInit } from '@angular/core';
 import { CurrencyPipe, DatePipe } from '@angular/common';
+import { Component, EventEmitter, inject, Input, OnInit, Output } from '@angular/core';
 import { ListadoGenericoComponent } from "../../compartidos/componentes/listado-generico/listado-generico.component";
-import { MatButtonModule } from "@angular/material/button";
-import { MatIconModule } from "@angular/material/icon"
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { RouterLink } from '@angular/router';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { PeliculasService } from '../peliculas.service';
 
 @Component({
-  selector: 'app-listado-peliculas',
-  imports: [ ListadoGenericoComponent,MatButtonModule,MatIconModule
-  ],
-  templateUrl: './listado-peliculas.component.html',
-  styleUrl: './listado-peliculas.component.css'
+    selector: 'app-listado-peliculas',
+    imports: [ListadoGenericoComponent, MatButtonModule, MatIconModule, RouterLink, SweetAlert2Module],
+    templateUrl: './listado-peliculas.component.html',
+    styleUrl: './listado-peliculas.component.css'
 })
-export class ListadoPeliculasComponent{
-  //DatePipe, CurrencyPipe,
+export class ListadoPeliculasComponent {
 
-  @Input({required:true})
-
+  @Input({ required: true })
   peliculas!: any[];
 
-  duplicarNumero(valor:number){
-    return valor *valor;
-  }
-  remover(peliculas:any){
-    const indice = this.peliculas.findIndex((peliculaActual:any)=> peliculaActual.titulo === peliculaActual.titulo);
-    this.peliculas.splice(indice,1);
+  peliculasService = inject(PeliculasService);
+
+  @Output()
+  borrado = new EventEmitter<void>();
+
+  borrar(id: number){
+    this.peliculasService.borrar(id)
+      .subscribe(() => this.borrado.emit())
   }
 }

@@ -1,41 +1,76 @@
-import { Component, Input, numberAttribute } from '@angular/core';
-import { PeliculaCreacionDTO, peliculaDTO } from '../peliculas';
-import { FormularioPeliculasComponent} from "../formulario-peliculas/formulario-peliculas.component";
+import { Component, inject, Input, numberAttribute, OnInit } from '@angular/core';
+import { PeliculaCreacionDTO, PeliculaDTO } from '../peliculas';
+import { FormularioPeliculasComponent } from "../formulario-peliculas/formulario-peliculas.component";
 import { SelectorMultipleDTO } from '../../compartidos/componentes/selector-multiples/SelectorMultipleModelo';
 import { actorAutoCompleteDTO } from '../../actores/actores';
+import { PeliculasService } from '../peliculas.service';
+import { CineDTO } from '../../cine/cines';
+import { Router } from '@angular/router';
+import { exportarErrores } from '../../compartidos/funciones/ExtraerErrores';
+import { MostrarErroresComponent } from "../../compartidos/componentes/mostrar-errores/mostrar-errores.component";
+import { CargandoComponent } from "../../compartidos/componentes/cargando/cargando.component";
+
 @Component({
-  selector: 'app-editar-pelicula',
-  imports: [FormularioPeliculasComponent],
-  templateUrl: './editar-pelicula.component.html',
-  styleUrl: './editar-pelicula.component.css'
+    selector: 'app-editar-pelicula',
+    imports: [FormularioPeliculasComponent, MostrarErroresComponent, CargandoComponent],
+    templateUrl: './editar-pelicula.component.html',
+    styleUrl: './editar-pelicula.component.css'
 })
-export class EditarPeliculaComponent {
-@Input(  {transform:numberAttribute})
-  id!:number;
-  pelicula:peliculaDTO={id:1,titulo:"spoder man",fechaLanzamiento:new Date('2018-07-25'),poster:"https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The_Flash_%28film%29_poster.jpg/220px-The_Flash_%28film%29_poster.jpg"}
-generosSeleccionados:SelectorMultipleDTO[]=[{llave:2,valor:"Comedia"}];
-  generosNoSeleccionados:SelectorMultipleDTO[]=[
-    {llave:1,valor:"Drama"},
-    
-    {llave:3,valor:"Gore"},
+export class EditarPeliculaComponent implements OnInit {
 
-  ];
-  cinesSeleccionados:SelectorMultipleDTO[]=[{llave:2,valor:"Cinemex"},];
-  cinesNoSeleccionados:SelectorMultipleDTO[]=[
-    {llave:1,valor:"Cinepolis"},
-    
-    {llave:3,valor:"Cineteca"},
+  ngOnInit(): void {
+    this.peliculasService.actualizarGet(this.id).subscribe(modelo => {
+      this.pelicula = modelo.pelicula;
+      this.actoresSeleccionados = modelo.actores;
 
-  ];
-  actoresSeleccionados:actorAutoCompleteDTO[]=[
-    {
-      id: 2,
-      nombre: 'Jennifer Lopez',
-      personaje: "Forest Gum",
-      foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg/220px-210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg"
-    },
-  ];
-  guardarCambio(pelicula:PeliculaCreacionDTO){
-    console.log("creacion de pelicula",pelicula);
+      this.cinesNoSeleccionados = modelo.cinesNoSeleccionados.map(cine => {
+        return <SelectorMultipleDTO>{llave: cine.id, valor: cine.nombre};
+        //devyelve los valores
+      });
+      console.log("this.cinesNoSeleccionados",this.cinesNoSeleccionados);
+
+      this.cinesSeleccionados = modelo.cinesSeleccionados.map(cine => {
+        return <SelectorMultipleDTO>{llave: cine.id, valor: cine.nombre};
+      });
+      console.log("this.cinesSeleccionados",this.cinesSeleccionados);
+      
+      this.generosNoSeleccionados = modelo.generosNoSeleccionados.map(genero => {
+        return <SelectorMultipleDTO>{llave: genero.id, valor: genero.nombre};
+      });
+      console.log("this.generosNoSeleccionados",this.generosNoSeleccionados);
+
+      this.generosSeleccionados = modelo.generosSeleccionados.map(genero => {
+        return <SelectorMultipleDTO>{llave: genero.id, valor: genero.nombre};
+      });
+      console.log("this.generosSeleccionados",this.generosSeleccionados);
+    });
   }
+
+  @Input({ transform: numberAttribute })
+  id!: number;
+  pelicula!: PeliculaDTO;
+  generosSeleccionados!: SelectorMultipleDTO[];
+  generosNoSeleccionados!: SelectorMultipleDTO[];
+  cinesSeleccionados!: SelectorMultipleDTO[];
+  cinesNoSeleccionados!: SelectorMultipleDTO[];
+  actoresSeleccionados!: actorAutoCompleteDTO[];
+  
+
+  peliculasService = inject(PeliculasService);
+  router = inject(Router);
+  errores: string[] = [];
+
+  guardarCambios(pelicula: PeliculaCreacionDTO){
+    console.log("pelicula",pelicula);
+    this.peliculasService.actualizar(this.id, pelicula).subscribe({
+      next: () => {
+        this.router.navigate(['/']);
+      },
+      error: err => {
+        const errores = exportarErrores (err);
+        this.errores = errores;
+      }
+    })
+  }
+
 }

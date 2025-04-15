@@ -14,7 +14,7 @@ namespace PeliculasAPI.Utilidades
             ConfigurarMapeoCines(geometryFactory);
             ConfigurarMapeoPeliculas();
         }
-        
+
         private void ConfigurarMapeoPeliculas()
         {
             CreateMap<PeliculaCreacionDTO, Pelicula>()
@@ -50,7 +50,7 @@ namespace PeliculasAPI.Utilidades
                 .ForMember(dto => dto.Foto, entidad => entidad.MapFrom(p => p.Actor.Foto));
 
         }
-        
+
         private void ConfigurarMapeoCines(GeometryFactory geometryFactory)
         {
             CreateMap<Cine, CineDTO>()
@@ -64,10 +64,11 @@ namespace PeliculasAPI.Utilidades
 
         private void ConfigurarMapeoActores()
         {
-            CreateMap<ActorCreacionDTO, Actor>().ForMember(x => x.Foto, opciones => opciones.Ignore());
+            CreateMap<ActorCreacionDTO, Actor>()
+                .ForMember(x => x.Foto, opciones => opciones.Ignore());
             CreateMap<Actor, ActorDTO>();
 
-            //CreateMap<Actor, PeliculaActorDTO>();
+            CreateMap<Actor, PeliculaActorDTO>();
         }
 
         private void ConfigurarMapeoGeneros()

@@ -58,6 +58,8 @@ namespace PeliculasAPI.Controllers
             return resultado;
         }
 
+
+
         [HttpGet("{id:int}", Name = "ObtenerPeliculaPorId")]
         [OutputCache(Tags = [cacheTag])]
         public async Task<ActionResult<PeliculaDetallesDTO>> Get(int id)
@@ -155,6 +157,7 @@ namespace PeliculasAPI.Controllers
             if (pelicula is null)
             {
                 return NotFound();
+                //error 404
             }
 
             var generosSeleccionadosIds = pelicula.Generos.Select(g => g.Id).ToList();
@@ -170,13 +173,16 @@ namespace PeliculasAPI.Controllers
                                             .ToListAsync();
 
             var respuesta = new PeliculasPutGetDTO();
+
             respuesta.Pelicula = pelicula;
             respuesta.GenerosSeleccionados = pelicula.Generos;
             respuesta.GenerosNoSeleccionados = generosNoSeleccionados;
             respuesta.CinesSeleccionados = pelicula.Cines;
             respuesta.CinesNoSeleccionados = cinesNoSeleccionados;
             respuesta.Actores = pelicula.Actores;
+            // todo lo que se muestra en la construccion de json 
             return respuesta;
+            //json
         }
 
         [HttpPut("{id:int}")]
@@ -224,5 +230,7 @@ namespace PeliculasAPI.Controllers
         {
             return await Delete<Pelicula>(id);
         }
+
+        
     }
 }

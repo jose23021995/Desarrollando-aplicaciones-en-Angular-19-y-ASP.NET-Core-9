@@ -47,24 +47,30 @@ namespace PeliculasAPI.Controllers
             return await Get<Genero, GeneroDTO>(paginacion, ordenarPor: g => g.Nombre);
 
         }
-
-        [HttpGet("{id:int}", Name = "ObtenetGeneroPorId")] // api/generosd/?
+        /*
+        [HttpGet("{id:int}", Name = "ObtenerGeneroPorId")] // api/generosd/?
         [OutputCache(Tags = [cacheTag])]
         public async Task<ActionResult<GeneroDTO>> Get(int id)
         {
-            /*
-            var genero = await context.Generos
-                .ProjectTo<GeneroDTO>(mapper.ConfigurationProvider)
-                .FirstOrDefaultAsync(g => g.Id == id);
-            if (genero is null)
-            {
-                return NotFound();
-            }
-            return genero;
-            */
+            
+            //var genero = await context.Generos
+                //.ProjectTo<GeneroDTO>(mapper.ConfigurationProvider)
+              //  .FirstOrDefaultAsync(g => g.Id == id);
+            //if (genero is null)
+            //{
+              //  return NotFound();
+            //}
+            //return genero;
+            
             return await Get<Genero,GeneroDTO>(id);
         }
-
+        */
+        [HttpGet("{id:int}", Name = "ObtenerGeneroPorId")] // api/generos/500
+        [OutputCache(Tags = [cacheTag])]
+        public async Task<ActionResult<GeneroDTO>> Get(int id)
+        {
+            return await Get<Genero, GeneroDTO>(id);
+        }
 
 
         [HttpGet("{nombre}")] // api/generosd/?
@@ -102,18 +108,26 @@ namespace PeliculasAPI.Controllers
         }
 
         //metodo POST
+        /*
         [HttpPost]
         [OutputCache(Tags = [cacheTag])]
         public async Task<IActionResult> Post([FromBody] GeneroCreacionDTO generoCreacionDTO)
         {
-            /*
-            var genero = mapper.Map<Genero>(generoCreacionDTO);
-            context.Add(genero);
-            await context.SaveChangesAsync();
-            await OutputCacheStore.EvictByTagAsync(cacheTag, default);
-            return CreatedAtRoute("ObtenetGeneroPorId", new { id = genero.Id }, genero);
-            */
+            
+            //var genero = mapper.Map<Genero>(generoCreacionDTO);
+            //context.Add(genero);
+            //await context.SaveChangesAsync();
+            //await OutputCacheStore.EvictByTagAsync(cacheTag, default);
+            //return CreatedAtRoute("ObtenetGeneroPorId", new { id = genero.Id }, genero);
+            
             return await Post<GeneroCreacionDTO, Genero, GeneroDTO>(generoCreacionDTO, "ObtenerGeneroPorId");
+
+        }
+        */
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] GeneroCreacionDTO generoCreacionDTO)
+        {
+              return await Post<GeneroCreacionDTO, Genero, GeneroDTO>(generoCreacionDTO, "ObtenerGeneroPorId");
 
         }
 
@@ -131,6 +145,12 @@ namespace PeliculasAPI.Controllers
             */
             return await Delete<Genero>(id);
 
+        }
+        [HttpGet("todos")] // api/generos/todos
+        [OutputCache(Tags = [cacheTag])]
+        public async Task<List<GeneroDTO>> Get()
+        {
+            return await Get<Genero, GeneroDTO>(ordenarPor: g => g.Nombre);
         }
 
     }

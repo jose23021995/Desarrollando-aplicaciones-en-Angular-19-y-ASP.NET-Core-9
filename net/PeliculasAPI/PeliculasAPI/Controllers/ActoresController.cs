@@ -83,6 +83,14 @@ namespace PeliculasAPI.Controllers
             return await Get<Actor, ActorDTO>(paginacion, ordenarPor: a => a.Nombre);
 
         }
+        [HttpGet("{nombre}")]
+        public async Task<ActionResult<List<PeliculaActorDTO>>> Get(string nombre)
+        {
+            return await context.Actores.Where(a => a.Nombre.Contains(nombre))
+                .ProjectTo<PeliculaActorDTO>(mapper.ConfigurationProvider)
+                .ToListAsync();
+        }
+
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(int id, [FromForm] ActorCreacionDTO actorCreacionDTO)
         {

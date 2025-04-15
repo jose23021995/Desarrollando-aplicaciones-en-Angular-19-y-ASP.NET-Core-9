@@ -1,7 +1,6 @@
 import { actorAutoCompleteDTO } from "../actores/actores";
 import { CineDTO } from "../cine/cines";
 import { GeneroDTO } from "../genero/generos";
-
 export interface PeliculaDTO{
     id: number;
     titulo: string;

@@ -2,31 +2,38 @@ import { Component, Input } from '@angular/core';
 import { SelectorMultipleDTO } from './SelectorMultipleModelo';
 
 @Component({
-  selector: 'app-selector-multiples',
-  imports: [],
-  templateUrl: './selector-multiples.component.html',
-  styleUrl: './selector-multiples.component.css'
+    selector: 'app-selector-multiple',
+    imports: [],
+    templateUrl: './selector-multiples.component.html',
+    styleUrl: './selector-multiples.component.css'
 })
 export class SelectorMultiplesComponent {
-  @Input({required:true})
-  Seleccionador!:SelectorMultipleDTO[];
-  @Input({required:true})
-  NoSeleccionador!:SelectorMultipleDTO[];
-  seleccionar(elemento:SelectorMultipleDTO,indice:number){
-    this.Seleccionador.push(elemento);
-    this.NoSeleccionador.splice(indice,1);
-  }
-  deseleccionar(elemento:SelectorMultipleDTO,indice:number){
-    this.NoSeleccionador.push(elemento);
-    this.Seleccionador.splice(indice,1);
-  }
-  seleccionarTodo(){
-    this.Seleccionador.push(...this.NoSeleccionador);
-    this.NoSeleccionador.length=0;
-  }
-  deseleccionarTodo(){
-    this.NoSeleccionador.push(...this.Seleccionador);
-    this.Seleccionador.length=0;
-  }
+
+  @Input({required: true})
+  Seleccionados!: SelectorMultipleDTO[];
+
   
+  @Input({required: true})
+  NoSeleccionados!: SelectorMultipleDTO[];
+
+  seleccionar(elemento: SelectorMultipleDTO, indice: number){
+    this.Seleccionados.push(elemento);
+    this.NoSeleccionados.splice(indice, 1);
+  }
+
+  deseleccionar(elemento: SelectorMultipleDTO, indice: number){
+    this.NoSeleccionados.push(elemento);
+    this.Seleccionados.splice(indice, 1);
+  }
+
+  seleccionarTodo(){
+    this.Seleccionados.push(...this.NoSeleccionados);
+    this.NoSeleccionados.length = 0;
+  }
+
+  deseleccionarTodo(){
+    this.NoSeleccionados.push(...this.Seleccionados);
+    this.Seleccionados.length = 0;
+  }
+
 }

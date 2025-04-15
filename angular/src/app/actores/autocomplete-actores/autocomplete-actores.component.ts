@@ -1,66 +1,69 @@
-import { Component, Input, ViewChild } from '@angular/core';
-import { ReactiveFormsModule,FormsModule, FormControl} from "@angular/forms";
-import { MatAutocompleteModule, MatAutocompleteSelectedEvent} from "@angular/material/autocomplete";
-import { MatFormFieldModule} from "@angular/material/form-field";
-import { MatIconModule} from "@angular/material/icon";
-import { MatInputModule} from "@angular/material/input";
-import { MatTable, MatTableModule} from "@angular/material/table";
+import { Component, inject, Input, OnInit, ViewChild } from '@angular/core';
+import { ReactiveFormsModule, FormsModule, FormControl } from '@angular/forms';
+import { MatAutocompleteModule, MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatTable, MatTableModule } from '@angular/material/table';
 import { actorAutoCompleteDTO } from '../actores';
-import { CdkDragDrop, DragDropModule, moveItemInArray} from '@angular/cdk/drag-drop';
-
+import { CdkDragDrop, DragDropModule, moveItemInArray } from '@angular/cdk/drag-drop';
+import { ActoresService } from '../actores.service';
 
 @Component({
-  selector: 'app-autocomplete-actores',
-  imports: [MatAutocompleteModule, ReactiveFormsModule, MatFormFieldModule, FormsModule, MatIconModule, MatInputModule, MatTableModule,DragDropModule],
-  templateUrl: './autocomplete-actores.component.html',
-  styleUrl: './autocomplete-actores.component.css'
+    selector: 'app-autocomplete-actores',
+    imports: [MatAutocompleteModule, ReactiveFormsModule, MatFormFieldModule, MatIconModule, FormsModule, MatTableModule, MatInputModule,
+        DragDropModule
+    ],
+    templateUrl: './autocomplete-actores.component.html',
+    styleUrl: './autocomplete-actores.component.css'
 })
-export class AutocompleteActoresComponent {
+
+export class AutocompleteActoresComponent implements OnInit {
+
+  ngOnInit(): void {
+    this.control.valueChanges.subscribe(valor => {
+      //console.log(valor);
+      if (typeof valor === 'string' && valor){
+        this.actoresService.obtenerPorNombre(valor).subscribe(actores => {
+          this.actores = actores;
+        });
+      }
+    });
+  }
+  
   control = new FormControl();
-  actores: actorAutoCompleteDTO[] = [{
-      id: 1,
-      nombre: 'Tom Holland',
-      personaje: "",
-      foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tom_Holland_at_KCA_2022.jpg/220px-Tom_Holland_at_KCA_2022.jpg"
-    },
-    {
-      id: 2,
-      nombre: 'Jennifer Lopez',
-      personaje: "",
-      foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg/220px-210120-D-WD757-1975_-_Jennifer_Lopez_at_the_US_Capitol_%2850860511978%29_%28cropped%29.jpg"
-    },
-    {
-      id: 2,
-      nombre: 'Johnny Depp',
-      personaje: "",
-      foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Johnny_Depp_2020.jpg/220px-Johnny_Depp_2020.jpg"
-    },
-  ];
-  @Input({required:true})
-  actoresSeleccionados:actorAutoCompleteDTO[]=[];
-  columnasAMostrar=["imagen","nombre","personaje","accion"];
-  @ViewChild(MatTable) table!:MatTable<actorAutoCompleteDTO>;
-  actorSeleccionado(event:MatAutocompleteSelectedEvent) {
-    console.log(event.option.value);
+
+  actores: actorAutoCompleteDTO[] = [];
+
+  @Input({required: true})
+  actoresSeleccionados: actorAutoCompleteDTO[] = [];
+
+  actoresService = inject(ActoresService);
+
+  columnasAMostrar = ['imagen', 'nombre', 'personaje', 'acciones'];
+
+  @ViewChild(MatTable) table!: MatTable<actorAutoCompleteDTO>;
+
+  actorSeleccionado(event: MatAutocompleteSelectedEvent) {
+    console.log(event);
     this.actoresSeleccionados.push(event.option.value);
-    this.control.patchValue("");
+    this.control.patchValue('');
+
     if (this.table != undefined) {
-      this.table.renderRows()
+      this.table.renderRows();
     }
-    console.log(this.actoresSeleccionados);
   }
-  eliminar(actor:actorAutoCompleteDTO){
-    const indice= this.actoresSeleccionados.findIndex((a:actorAutoCompleteDTO)=> a.id === actor.id)
-    this.actoresSeleccionados.splice(indice,1);
+
+  finalizarArrastre(event: CdkDragDrop<any[]>){
+    const indicePrevio = this.actoresSeleccionados.findIndex(actor => actor === event.item.data);
+    moveItemInArray(this.actoresSeleccionados, indicePrevio, event.currentIndex);
     this.table.renderRows();
   }
 
-  dinalizarArrastre(event:CdkDragDrop<any[]>){
-
-  }
-  finalizarArrastre(event:CdkDragDrop<any[]>){
-    const indicePrevio= this.actoresSeleccionados.findIndex(actor => actor=== event.item.data);
-    moveItemInArray(this.actoresSeleccionados,indicePrevio,event.currentIndex)
+  eliminar(actor: actorAutoCompleteDTO) {
+    const indice = this.actoresSeleccionados.findIndex((a: actorAutoCompleteDTO) => a.id === actor.id);
+    this.actoresSeleccionados.splice(indice, 1);
     this.table.renderRows();
   }
+
 }

@@ -1,6 +1,6 @@
 <div class="contenedor">
     <ul>
-        @for (elemento of NoSeleccionador; track $index) {
+        @for (elemento of NoSeleccionados; track $index) {
             <li (click)="seleccionar(elemento,$index)">{{elemento.valor}}</li>
         }
     </ul>
@@ -9,7 +9,7 @@
         <button type="button" (click)="deseleccionarTodo()"> << </button>
     </div>
     <ul>
-        @for (elemento of Seleccionador; track $index) {
+        @for (elemento of Seleccionados; track $index) {
             <li (click)="deseleccionar(elemento,$index)">{{elemento.valor}}</li>
         }
     </ul>

@@ -1,6 +1,12 @@
-<h2>Editar Pelicula</h2>
-<app-formulario-peliculas [modelo]="pelicula" (posteoFormulario)="guardarCambio($event)" 
-[generosNoSeleccionados]="generosNoSeleccionados" [generosSeleccionados]="generosNoSeleccionados"
-[cinesNoSeleccionados]="cinesNoSeleccionados" [cinesSeleccionados]="cinesSeleccionados"
-[actoresSeleccionados]="actoresSeleccionados"
-></app-formulario-peliculas>
+<h2>Editar Película</h2>
+
+@if(cinesNoSeleccionados){
+    <app-mostrar-errores [errores]="errores"></app-mostrar-errores>
+    <app-formulario-peliculas [modelo]="pelicula" (posteoFormulario)="guardarCambios($event)"
+    [generosNoSeleccionados]="generosNoSeleccionados" [generosSeleccionados]="generosSeleccionados"
+    [cinesNoSeleccionados]="cinesNoSeleccionados" [cinesSeleccionados]="cinesSeleccionados"
+    [actoresSeleccionados]="actoresSeleccionados"
+    ></app-formulario-peliculas>
+} @else {
+    <app-cargando></app-cargando>
+}
